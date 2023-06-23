@@ -1,0 +1,60 @@
+body {
+    background-image: url("/src/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* Formulario */
+.title {
+    color: #ff0707;
+    font: oblique bold 300% impact ;
+}
+
+label {
+    color: #24d800 ;
+    font: oblique bold 100% Arial black ;
+
+}
+
+.error-message{
+    color: #ff0707;
+    font: Times courier ;
+}
+
+
+/* Cards */
+.card {
+    background-color: #ffb52c;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card-title {
+    color: #000000;
+    font: oblique bold 120% Arial black ;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #000000;
+    font: oblique bold 120% Arial black ;
+    font-size: 1rem;
+}
+
+.card:hover {
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    max-height: 350px;
+}
+
+
+.delete-button {
+    font-size: 1.5rem;
+}
